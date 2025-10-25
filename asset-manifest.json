@@ -1,0 +1,12 @@
+{
+  "files": {
+    "main.css": "/Mark4353/prhooks2/static/css/main.31d6cfe0.css",
+    "main.js": "/Mark4353/prhooks2/static/js/main.3f488f67.js",
+    "index.html": "/Mark4353/prhooks2/index.html",
+    "main.3f488f67.js.map": "/Mark4353/prhooks2/static/js/main.3f488f67.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.31d6cfe0.css",
+    "static/js/main.3f488f67.js"
+  ]
+}
