@@ -5,10 +5,10 @@ export default function Timer() {
   const timerRef = useRef(null);
 
   const start = () => {
-    if (timerRef.current) return; 
-      setCounter(0);
+    if (timerRef.current) return;
+    setCounter(0);
     timerRef.current = setInterval(() => {
-      setCounter((c) => c + 1);
+      setCounter((prev) => prev + 1);
     }, 1000);
   };
 
@@ -17,7 +17,7 @@ export default function Timer() {
       clearInterval(timerRef.current);
       timerRef.current = null;
     }
-    setCounter(0); 
+    setCounter(0);
   };
 
   useEffect(() => {
